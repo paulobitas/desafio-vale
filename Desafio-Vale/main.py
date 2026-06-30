@@ -1,7 +1,9 @@
-
+from desafiovale import __define_path, __prepare
 
 def main():
-    # Chame aqui as funções que você deseja executar
+    
+    #__prepare()
+    __define_path()
     pass
 
 
