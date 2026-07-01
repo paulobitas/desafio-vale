@@ -1,9 +1,8 @@
-from desafiovale import __define_path, __prepare
+from desafiovale import __define_path, inicializar
 
 def main():
     
-    #__prepare()
-    __define_path()
+    inicializar()
     pass
 
 
