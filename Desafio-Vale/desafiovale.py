@@ -100,7 +100,7 @@ def apontamento(path_arquivo_apontamento, path_saida):
     df_apontamento.to_excel(writer, sheet_name = "apontamentos")
     writer.close()
 
-    return f"Arquivo de apontamentos preenchido com sucesso na planilha!"
+    return print(f"Arquivo de apontamentos preenchido com sucesso na planilha!")
 
 
 
